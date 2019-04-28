@@ -13,7 +13,8 @@ Considering the following system, we will design an observer feedback system for
 position of the system. Assume the closed loop state feedback poles at:
 -10+/-j20 and the observer poles at -40+/-j40.
 
-![Experimental model](images/Fig_1.JPG)
+![Experimental model](images/Fig_1.JPG) <br/> 
+
 **Figure 1.** Experimental model
 
 Our goal is to find the state-space representation of the controllerwhich we will implement with Arduino
@@ -69,7 +70,7 @@ Bc = [B G]
 
 According to Matlab simulation, the given observer and state feedback poles would give us the following response.
 
-![Predicted step response](images/Fig_2.JPG)
+![Predicted step response](images/Fig_2.JPG) <br/> 
 **Figure 2.** Predicted step response
 
 ### Programming an Arduino
@@ -174,13 +175,13 @@ float bound(float x, float x_min, float x_max){
 
 ### Experimental Response
 
-![Squarewave displacement response](images/Fig_3.PNG)
+![Squarewave displacement response](images/Fig_3.PNG) <br/> 
 **Figure 3.** Squarewave displacement response 
 <br/> 
 
-![Squarewave velocity response](images/Fig_4.JPG)
+![Squarewave velocity response](images/Fig_4.JPG) <br/> 
 **Figure 4.** Squarewave velocity response (green &ndash; reference, red &ndash; displacement, blue &ndash; velocity)
-<br/> 
+<br/> <br/> 
 
 --- end ---
 
